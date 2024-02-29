@@ -43,6 +43,8 @@ mongoose
   .then(async () => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
+    console.log("Connected to DB");
+
     /*ADD DATA ONE TIME ONLY OR AS NEEDED */
 
     // await mongoose.connection.db.dropDatabase();
